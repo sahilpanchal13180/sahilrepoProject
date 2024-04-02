@@ -1,0 +1,36 @@
+.Logout {
+  padding: 9px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.Links {
+  display: flex;
+  gap: 10px;
+}
+.MobileBtn,
+.MobileLinks {
+  display: none;
+}
+@media (max-width: 768px) {
+  .Links {
+    display: none;
+  }
+  .MobileBtn {
+    display: block;
+    cursor: pointer;
+    font-weight: 700;
+  }
+  .MobileLinks {
+    position: absolute;
+    max-height: calc(100vh-100px);
+    top: 100px;
+    width: 50%;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+}

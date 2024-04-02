@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.posts {
+  width: 30%;
+  margin-top: 20px;
+}

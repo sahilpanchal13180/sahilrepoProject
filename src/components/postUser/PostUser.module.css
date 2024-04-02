@@ -1,0 +1,8 @@
+.tittles {
+  font-size: 59px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
